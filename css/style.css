@@ -1,0 +1,35 @@
+body {
+    background-color:#F0F4EF;
+}
+
+
+.flex-container {
+
+    display: flex;
+    
+    justify-content: center;
+    height: 100%;
+    padding: 15px;
+    gap: 5px;
+
+  }
+
+  .flex-container > div{
+    background: #344966;
+    padding: 8px;
+    max-width: 1140px;
+    margin-top: 60px;
+    border: #344966;
+    border-radius: 10px;
+    padding: 24px;
+  }
+
+
+  .item1 { 
+    /* flex:0 1 auto; */
+    align-self:center;
+  }
+
+  .text-color {
+    color:#F0F4EF;
+  }
